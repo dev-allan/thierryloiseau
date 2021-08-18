@@ -1,0 +1,178 @@
+@font-face {
+    src: url('https://mdn.mozillademos.org/files/16044/AmstelvarAlpha-VF.ttf');
+    font-family:'AmstelvarAlpha';
+    font-style: normal;
+  }
+
+body {
+    /* background-color: aliceblue; */
+    font: 1rem 'AmstelvarAlpha', sans-serif;
+    margin : 0;
+    background-color: #000000;
+}
+
+.mainHeader {
+    /* background-image: url("/assets/images/forest.jpg"); */
+    min-height: 50vh;
+    min-width: 100vh;
+}
+
+.linkStyle > a {
+    color : grey
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.mainHeader__mind {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainHeader__mind--pageFb {
+    position: absolute;
+}
+
+.mainHeader__mind--title {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+}
+
+.mainHeader__mind--title > img {
+    overflow: hidden;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+
+.mainHeader__mind--title > h1 {
+    margin: 0 
+}
+
+.mainHeader__nav {
+    display : flex;
+    justify-content: space-around;
+}
+
+.mainHeader__nav--item {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.headerSection {
+    background-color: #5F68EB;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin : 3vh;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+.presentation__apropos {
+    display: flex;
+    flex-direction: row;
+    margin : 5vh 30vh
+}
+
+.presentation__apropos--img {
+    margin-right: 50px;
+    float: left;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.presentation__apropos--txt {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.sophrologie__apropos {
+    display: flex;
+    flex-direction: row;
+    margin : 5vh 30vh;
+}
+
+.sophrologie__apropos--txt {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.sophrologie__apropos--img {
+    float: right;
+    margin: 30px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.temoignage__avis {
+    display: flex;
+    flex-direction: row;
+    margin : 5vh 30vh
+}
+
+.temoignage__avis--photo {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.temoignage__avis--size {
+    width: 30vh;
+    margin: 15px;
+    text-align: justify;
+    font-size: 2vh;
+    border: solid 1px;
+}
+
+.card {
+    margin: 10px
+}
+
+.lieutarif__bloc {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    align-items: center;
+    font-size: 1em;
+    justify-content: space-around;
+    margin : 5vh 30vh;
+    text-align : justify;
+
+}
+
+.footbloc {
+    text-align: center;
+}
+
+/*background*/
+
+/* body {
+	background: linear-gradient(-45deg, white, azure, white, azure);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+body {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
