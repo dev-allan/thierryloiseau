@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thierry Loiseau, Sophrologue</title>
+    <link rel="icon" type="image/png" href="assets/icons/logo_ampoule.png" />
     <link rel="stylesheet" href='style.css'/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <header class='mainHeader'>
-        <nav class='navbar navbar-dark bg-dark'> -->
-            <div class="container linkStyle">
-                <a class="navbar-brand" href="#">thierryloiseausophrologue.fr</a>
-                <a href='#presentation'>Qui suis-je ?</a>
-                <a href='#sophrologie'>La sophrologie</a>
-                <a href='#temoignage'>Témoignages</a>
-                <a href='#lieu'>Lieu et tarif</a>
+        <nav class='navigationBar'>
+            <div class="linkStyle">
+                <a id="logo" href="#"><p><img class='logo' src="assets/icons/logo_ampoule.png" alt='logo ampoule'>thierryloiseausophrologue.fr</p></a>
+                <div class="itemNav">
+                    <a href='#sophrologie'><img class="iconNavItem" src="https://img.icons8.com/color/30/000000/leaf.png"/>La sophrologie</a>
+                    <a href='#temoignage'><img class="iconNavItem" src="https://img.icons8.com/flat-round/30/000000/quote.png"/>Témoignages</a>
+                    <a href='#lieu'><img class="iconNavItem"  src="https://img.icons8.com/cotton/30/000000/worldwide-location--v1.png"/>Lieu et tarif</a>
+                </div>
             </div>
         </nav>
         <div class="presentation__apropos">
             <div class="jumbotron">
-                <h1 class="display-6">Thierry Loiseau, sophrologue certifié</h1>
+                <h1 class="display-6"><span class="name">Thierry Loiseau,</span> sophrologue certifié</h1>
                 <div class="presentation__apropos--img">
                     <img src='assets/images/thierry_loiseau_apropos.jpg' alt='photo de Thierry Loiseau avec fond végétal'/>
                 </div>
@@ -45,7 +47,32 @@
         <div class="sophrologie__apropos">
             <div class="sophrologie__apropos--txt">
                 <div class="sophrologie__apropos--img">
-                    <img src='assets/images/water.jpg' alt='photo détente'/>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/images/carrousel1.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/carrousel2.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/images/carrousel3.jpg" alt="Third slide">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                      </div>
                 </div>
                 <p>La sophrologie, c’est quoi ? 
                     C’est une méthode douce et naturelle mise au point en 1960 par le docteur A.Caycédo, docteur en médecine spécialisée en neurologie et psychiatrie. Elle utilise des techniques de respiration et des exercices corporels simples à réaliser sous la guidance d’un sophrologue diplômé. 
@@ -71,58 +98,39 @@
             <h3>Les témoignages</h3>
         </div>
         <div class="temoignage__avis">
-            <!-- <div class="temoignage__avis--1 temoignage__avis--size">
-                <img class="temoignage__avis--photo" src="assets/images/jean_charle_p.jpg" alt="photo de Jean-Charles"/>
-                <span>Jean-Charles P</span>
-                <p>Dès les premières séances, j’ai découvert un accompagnant d’une grande rigueur. Les séances étaient préparées très soigneusement et la guidance pendant celles-ci à la fois souple et attentive. L’approche de Thierry me convient bien en ce qu’elle est très personnalisée et prend en considération l’individu que je suis avec ses capacités et ses limites.</p>
-            </div> -->
-        
-
-        
-            <!-- <div class="temoignage__avis--2 temoignage__avis--size">
-                <img class="temoignage__avis--photo" src="assets/images/caroline_c.jpg" alt="témoignage de Caroline"/>
-                <span>Caroline C</span>
-                <p>Je recommande la sophrologie à tout le monde, c’est un moment de détente, un moment rien qu'à nous, on ne pense plus à rien, on est dans un autre monde pendant la séance. Je sors de là détendue, plus du tout stressée.</p>
-            </div> -->
-
-            <!-- <div class="temoignage__avis--3 temoignage__avis--size">
-                <img class="temoignage__avis--photo" src="assets//images/elvire_l.jpg" alt='photo de Elvire apportant son témoignage'/>
-                <span>Elvire L</span>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates ad dolorem ipsa delectus quo deleniti molestias quae.</p>
-            </div> -->
-
-            <!-- <div class="temoignage__avis--4 temoignage__avis--size">
-                <img class="temoignage__avis--photo" src="assets//images//marie_claire_l.jpg" alt='photo de marie claire apportant son témoignage'/>
-                <span>Marie Claire L</span>
-                <p>Je recommande sincèrement Thierry comme sophrologue, il a beaucoup de patience et de savoir-faire. Il allège vos problèmes et vous procure l'optimisme et la sérénité. Je vis toujours très bien les séances, elles me procurent beaucoup de bien être.</p>
-            </div> -->
-            <div class="card" style="width: 18rem;">
+            <div class="card avis1" style="width: 22rem;">
                 <img class="card-img-top" src="/assets/images/elvire_l.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates ad dolorem ipsa delectus quo deleniti molestias quae.</p>
+                  <p class="card-text"><span class="styleNameCard">Elvire L<br><br></span>J’ai abordé la sophrologie pendant le premier confinement et j’ai découvert des séances personnalisées qui m’ont aidée dans la gestion du stress.
+                    Thierry est très à l’écoute et offre un suivi bienveillant. Merci pour ces moments d’apaisement émotionnel précieux !</p>
                 </div>
-              </div>
+                <p class='card-footer'>Elvire L</p>  
+            </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card avis2" style="width: 22rem;">
                 <img class="card-img-top" src="/assets/images/caroline_c.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Je recommande la sophrologie à tout le monde, c’est un moment de détente, un moment rien qu'à nous, on ne pense plus à rien, on est dans un autre monde pendant la séance. Je sors de là détendue, plus du tout stressée.</p>
+                  <p class="card-text"><span class="styleNameCard">Caroline C<br><br></span>Je recommande la sophrologie à tout le monde, c’est un moment de détente, un moment rien qu'à nous, on ne pense plus à rien, on est dans un autre monde pendant la séance. Je sors de là détendue, plus du tout stressée.</p>
                 </div>
+                <p class='card-footer'>Caroline C</p> 
               </div>
             
 
-            <div class="card" style="width: 18rem;">
+            <div class="card avis3" style="width: 22rem;">
                 <img class="card-img-top" src="/assets/images/jean_charle_p.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Dès les premières séances, j’ai découvert un accompagnant d’une grande rigueur. Les séances étaient préparées très soigneusement et la guidance pendant celles-ci à la fois souple et attentive. L’approche de Thierry me convient bien en ce qu’elle est très personnalisée et prend en considération l’individu que je suis avec ses capacités et ses limites.</p>
+                  <p class="card-text"><span class="styleNameCard">Jean Charle P<br><br></span>L’approche de Thierry me convient bien en ce qu’elle est très personnalisée et prend en considération l’individu que je suis avec ses capacités et ses limites.</p>
                 </div>
+                <p class='card-footer'>Jean Charle P</p> 
               </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card avis4" style="width: 22rem;">
                 <img class="card-img-top" src="/assets/images/marie_claire_l.jpg" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Je recommande sincèrement Thierry comme sophrologue, il a beaucoup de patience et de savoir-faire. Il allège vos problèmes et vous procure l'optimisme et la sérénité. Je vis toujours très bien les séances, elles me procurent beaucoup de bien être.</p>
+                  <p class="card-text"><span class="styleNameCard">Marie Claire L<br><br></span>Je recommande sincèrement Thierry comme sophrologue, il a beaucoup de patience et de savoir-faire. Il allège vos problèmes et vous procure l'optimisme et la sérénité. Je vis toujours très bien les séances, elles me procurent beaucoup de bien être.</p>
                 </div>
+                <p class='card-footer'>Marie Claire L</p> 
+
               </div>
         </div>
     </section>
@@ -135,19 +143,26 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.8069560823487!2d2.3350333670779766!3d50.38082185493453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd0c43d88edb93%3A0xa7070f729236b64!2s3%20Rue%20Bacler%20d&#39;Albe%2C%2062130%20Saint-Pol-sur-Ternoise!5e0!3m2!1sfr!2sfr!4v1629201846605!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="lieutarif__bloc--detail">
-                <p>Je vous accompagne au local « A l’Instant Présent » 3 Rue Bacler d'Albe à Saint-Pol-sur-Ternoise,<br> sur rendez-vous, du lundi au samedi de 10h à 18h30. 
-                    <br><br>Je pratique également à votre domicile, dans votre environnement sur les secteurs de l’Artois et du Ternois. 
-                    <br><br>Le tarif d’une séance de sophrologie en individuel est de 60 euros pour une durée de 1h à 1h30.</p>
+                <p>
+                    <img src="https://img.icons8.com/ios-filled/20/000000/address-book.png"/> Sur rendez-vous, du lundi au samedi de 10h à 18h30.
+                    <br><br><img src="https://img.icons8.com/glyph-neue/20/000000/user-location.png"/> Je vous accompagne au local « A l’Instant Présent » 3 Rue Bacler d'Albe à Saint-Pol-sur-Ternoise,
+                    <br><br><img src="https://img.icons8.com/ios-filled/20/000000/dog-house.png"/> Je pratique également à votre domicile, dans votre environnement sur les secteurs de l’Artois et du Ternois. 
+                    <br><br><img src="https://img.icons8.com/material-outlined/20/000000/euro-pound-exchange.png"/> Le tarif d’une séance de sophrologie en individuel est de <span id="tarif">60 € pour une durée de 1h à 1h30</span>.
+                    <br><br><img src="assets/icons/facebook.svg"/> Vous souhaitez en savoir plus sur mon actualité ? <a href='https://www.facebook.com/Thierry-Loiseau-sophrologue-101035728920916' id="lienPageFb">Cliquez-ici</a> pour suivre ma page facebook.
+                </p>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="footbloc">
-            <span>thierryloiseausophrologue.fr</span>
+            <span>&copy2021 thierryloiseausophrologue.fr</span>
         </div>
     </footer>
    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
