@@ -225,7 +225,9 @@ a:link {
 .jumbotron { 
     background: #0000002b;
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
-    padding: 20px 100px
+    padding: 20px 100px;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
 }
 
 .mainHeader__mind--title {
@@ -259,7 +261,7 @@ a:link {
 }
 
 .headerSection {
-    background-color: #ab463f;
+    background-color: #56b5e7;
     color: white;
     font-size: 1em;
     text-align: center;
@@ -353,7 +355,7 @@ a:link {
     border-radius: 30px !important;
     border : 0px !important;
     background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,0.17690826330532217) 0%, rgba(45,253,128,0.04245448179271705) 100%);
+    /* background: linear-gradient(0deg, rgba(0,0,0,0.17690826330532217) 0%, rgba(45,253,128,0.04245448179271705) 100%); */
 }
 
 .card-img-top {
@@ -380,8 +382,8 @@ a:link {
     /* margin : 5vh 30vh; */
     text-align : justify;
     /* border : solid 1px; */
-    background: #0000002b;
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: #0000000d;
+    /* box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); */
 
 }
 
@@ -411,8 +413,8 @@ a:link {
 
 body {
     background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgba(13,110,253,.25), #eefef6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(13,110,253,.25), #eefef6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 
 }
