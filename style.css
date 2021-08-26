@@ -371,6 +371,10 @@ a:link {
     font-weight: 800 !important;  
 }
 
+.lieutarif {
+    background-color: #81347b1f;
+}
+
 .lieutarif__bloc {
     display: flex;
     flex-direction: row;
@@ -382,7 +386,7 @@ a:link {
     /* margin : 5vh 30vh; */
     text-align : justify;
     /* border : solid 1px; */
-    background: #0000000d;
+    /* background: #0000000d; */
     /* box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); */
 
 }
@@ -413,8 +417,8 @@ a:link {
 
 body {
     background: #8e9eab;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(13,110,253,.25), #eefef6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(13,110,253,.25), #eefef6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, rgb(10 40 255 / 25%), #eefeef);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(10 40 255 / 25%), #eefeef)
     
 
 }
